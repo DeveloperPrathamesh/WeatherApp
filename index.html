@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>DevPrath Weather App</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+       
+        <script src="script.js"></script>
+    </head>
+   
+    <body>
+        <p class="heading">WELCOME</p>
+        <div class="maindiv">
+            <div>      
+                <button type="button" class="btn1" onclick="getweather()">Get Current Weather of your city</button>
+            </div>
+            <div>    
+                <p class="defcityhead">or Search by City</p>
+                <input type="text" placeholder="Enter city name..." id="defcity">
+                <button type="button" class="btn2" onclick="getweatherbycity()"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <p id="cityweather"></p>
+
+        <p id="currentweather"></p>
+
+        
+    </body>
+</html>
